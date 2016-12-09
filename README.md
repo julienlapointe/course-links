@@ -13,7 +13,7 @@
   1. "public" folder: contains the index.php file along with other PHP, JS, and CSS files that you can make accessible to anyone on the Internet
   2. "includes" folder: contains PHP files that you should make private (ex. contains your database username, password, etc.)
  
-### Local Server
+#### Local Server
 If you want to run the app locally, then follow these steps:
 1. Download and install the MAMP (Mac), WAMP (Windows), or LAMP (Linux) local server environment
 2. Move the "public" and "includes" folders to the root directory (/Applications/MAMP/htdocs on Mac) or change the Document Root in MAMP under the Preferences > Web Server sub-menu to the "public" folder.
@@ -27,7 +27,7 @@ If you want to run the app locally, then follow these steps:
   2. public > like_config.inc.php (I plan to merge this file with db_connection_open.php in the next version of this app)
 9. Open your browser to [http://localhost:8888/](http://localhost:8888/) (or whatever your Apache port is in MAMP's Preferences > Ports sub-menu) and you should see the app running in your local environment!
 
-### Hosted Server
+#### Hosted Server
 If you want to run the app on a hosted server, then follow these steps:
 3. Access phpMyAdmin via your host's Control Panel.
 4. Create a new database. Remember the name.
