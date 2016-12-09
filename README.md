@@ -78,4 +78,4 @@ Download and unzip the repo. You will find an SQL file along with 2 folders:
 
 ## Credits
 1. The content management system built in [Lynda.com PHP and MySQL Essential Training course](https://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training/119003-2.html) was used as the foundation for this app. 
-2. The [Smart Like Buttons script from CodeCanyon.net](https://codecanyon.net/item/smart-like-buttons/5299190?s_rank=4) was used for the voting system.
+2. The [Smart Like Buttons script from CodeCanyon.net](https://codecanyon.net/item/smart-like-buttons/5299190?s_rank=4) was used for the voting system. Do not use this script without purchasing your own license.
