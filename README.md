@@ -3,7 +3,7 @@
 This is the GitHub tutorial component of my Sheridan IMM Tech Studio Project. This tutorial is designed to get a new developer up and running with Course Links on their local or hosted server. 
 
 ## Overview
-[Course Links](http://bit.ly/course-links-demo) is an app for students to share links (articles, resources, etc.) with their classmates. Watch the [demo video](https://www.youtube.com/watch?v=Bhli3L8BpnQ&feature=youtu.be) to see the app in action. 
+Course Links is an app for students to share links (articles, resources, etc.) with their classmates. Visit the [demo site](http://bit.ly/course-links-demo) to see the app in action or watch the [demo video](https://www.youtube.com/watch?v=Bhli3L8BpnQ&feature=youtu.be) for a walk-through. 
 
 ## Technologies
 * PHP
