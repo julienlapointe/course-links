@@ -1,0 +1,240 @@
+/*v12*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html 
+{ 
+	height: 100%; 
+	width: 100%; 
+}
+
+body 
+{
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 14px;
+	min-height: 100vh;
+	position: relative;
+}
+
+a 
+{ 
+	text-decoration: none; 
+}
+
+ul 
+{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+th
+{
+	width: 125px;
+	text-align: left;
+}
+
+.hidden
+{
+	display: none;
+}
+
+.header 
+{
+  	top: 0px;
+	left: 0px;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+  	background-color: #29b6f6;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+
+.header h1 
+{
+	margin-left: 25px;
+	color: white;
+	opacity: 0.9;
+}
+
+.header h1:hover
+{
+	opacity: 1;
+	/*cursor: pointer;*/
+}
+
+.header a 
+{
+	margin-right: 25px;
+	display: block;
+    color: white;
+    opacity: 0.9;
+}
+
+.header a:hover
+{
+	opacity: 1;
+}
+
+/*.login-logout-button
+{
+	margin-left: auto;
+}*/
+
+.left-nav
+{
+	display: flex;
+	align-items: center;
+}
+
+.right-nav
+{
+	display: flex;
+	align-items: center;
+}
+
+div.message 
+{ 
+	border: 2px solid #4AB553;
+	color: #4AB553; 
+	font-weight: bold;
+	margin: 1em 0 ; 
+	padding: 1em; 
+}
+
+.error 
+{
+	color: #8D0D19; 
+	border: 2px solid #8D0D19;
+	margin: 1em 0; 
+	padding: 1em;
+}
+
+.error ul 
+{ 
+	padding-left: 2em; 
+}
+
+#navigation 
+{ 
+	float: left;
+	width: 215px; 
+	height: 500px; 
+	padding: 0 2em; 
+	border-right: 1px solid #a5b1bd;
+}
+
+.form-field
+{
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	/* add in vendor rules */
+	/*box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15);*/
+	/* add in vendor rules */
+	/*color: #fff;*/
+	display: inline-block;
+	background-color: white;
+	/*width: 56px;*/
+	/*font-size: 14px;*/
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+	font-size: 14px;
+	/*text-align: center;*/
+	margin: 5px 0px;
+}
+
+.submit
+{
+	border: solid 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	/* add in vendor rules */
+	/*box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.3), 0 1px 3px rgba(0, 0, 0, 0.15);*/
+	/* add in vendor rules */
+	/*color: #fff;*/
+	display: inline-block;
+	background-color: #eeeeee;
+	/*width: 56px;*/
+	/*font-size: 14px;*/
+	/*font-weight: bold;*/
+	padding: 5px 10px;
+	font-size: 14px;
+	/*text-align: center;*/
+	cursor: pointer;
+	margin: 5px 0px;
+}
+
+.selected 
+{ 
+	font-weight: bold; 
+}
+
+#main 
+{ 
+	/*height: 600px; */
+	width: 100%; 
+	margin: 0; 
+	padding-top: 105px;
+	padding-bottom: 105px;
+}
+
+#page 
+{ 
+	float: left; 
+	height: 100%;
+	padding: 0 2em; 
+}
+
+/* where does this get used? */
+/*.view-content 
+{
+	margin: 1em; 
+	padding: 1em; 
+	border: 1px solid #999;
+}*/
+
+.course-grid
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.course-card
+{
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	background-color: #eeeeee;
+}
+
+#footer 
+{ 
+	clear: both;
+	text-align: center;
+
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 64px;
+	background-color: #29b6f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer p
+{
+	color: white;
+	opacity: 0.9;
+}
