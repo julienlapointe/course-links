@@ -1,6 +1,6 @@
 # Course Links
 
-This is the GitHub tutorial component of my [Sheridan IMM](https://academics.sheridancollege.ca/programs/interactive-media-management) Tech Studio Project. This tutorial is designed to get a new developer up and running with Course Links on their local or hosted server. 
+This is the GitHub tutorial component of my [Sheridan IMM](https://academics.sheridancollege.ca/programs/interactive-media-management) Tech Studio Project. This tutorial is designed to get new developers up and running with Course Links on their local or hosted server. 
 
 ## Overview
 Course Links is an app for students to share links (articles, resources, etc.) with their classmates. Visit the [demo site](http://bit.ly/course-links-demo) to see the app in action or watch the [demo video](https://www.youtube.com/watch?v=Bhli3L8BpnQ&feature=youtu.be) for a walk-through. 
@@ -77,4 +77,5 @@ Download and unzip the repo. You will find an SQL file along with 2 folders:
 9. Open your browser to your domain name or to the temporary URL provided by your host and you should see the app running on the web!
 
 ## Credits
-The content management system built in [Lynda.com PHP and MySQL Essential Training course](https://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training/119003-2.html) was used as the foundation for this app. I also used the [Smart Like Buttons script from CodeCanyon.net](https://codecanyon.net/item/smart-like-buttons/5299190?s_rank=4) for the voting system.
+1. The content management system built in [Lynda.com PHP and MySQL Essential Training course](https://www.lynda.com/MySQL-tutorials/PHP-MySQL-Essential-Training/119003-2.html) was used as the foundation for this app. 
+2. The [Smart Like Buttons script from CodeCanyon.net](https://codecanyon.net/item/smart-like-buttons/5299190?s_rank=4) was used for the voting system.
