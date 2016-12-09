@@ -3,7 +3,7 @@
 	// server
 	define("DB_SERVER", "localhost");
 	// database name (a server can host many databases)
-	define("DB_NAME", "link_sharing_v12");
+	define("DB_NAME", "course_links");
 	// server username
 	define("DB_USERNAME", "root");
 	// server password
