@@ -33,6 +33,7 @@ Checked features are included in this release. Unchecked are planned for future 
 
 ## Installation
 Download and unzip the repo. You will find an SQL file along with 2 folders:
+
 1. "public" folder: contains the index.php file along with other PHP, JS, and CSS files that you can make accessible to anyone on the Internet.
 2. "includes" folder: contains PHP files that you should make private (ex. contains your database login credentials).
  
